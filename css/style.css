@@ -77,7 +77,6 @@ body {
   	border: solid 1px #ffffff;
   	height: 36px;
   	transition: 0.3s;
-  	t
 }
 .section1 {
 	/*height: 66px;*/
@@ -85,8 +84,13 @@ body {
 	min-height: calc(100vh - 66px);
 	margin: 66px 0 0 0;
 	border-style: none;
-	background: gray;
-	/*display: flex;*/
+	background: #000;
+	display: flex;
+	align-items: center;
+}
+.section1__content {
+	display: flex;
+	align-items: center;
 }
 .section1 .container {
 	/*display: flex;*/
@@ -94,35 +98,38 @@ body {
 	align-items: center;
 }
 .section1__content__left {
-	/*display: flex;*/
-	float: left;
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;*/
+	/*float: left;*/
 	/*margin: auto;*/
 	width: 50%;
-	min-height: calc(100vh - 66px);
+	/*min-height: calc(100vh - 66px);*/
 	background-color: red!important;
-	align-items: center;
+	
 }
 .section1__content__right {
 	display: flex;
-	float: right;
 	width: 50%;
-	min-height: calc(100vh - 66px);
+	/*min-height: calc(100vh - 66px);*/
 	background-color: green;
-	align-items: center;
+	/*align-items: center;*/
 }
 .section1__content__left__top {
 	/*display: block;*/
-	height: 50%;
+	
 	/*align-items: flex-end;*/
 }
 .section1__content__left__up {
-	height: 50%;
+	display: flex;
+	/*justify-content: flex-start;*/
+	align-items: center;
 }
 .section1__content__left__top__text1 {
 	font: Roboto-Light;
 	font-size: 36px;
 	color: white;
-	float: inherit;
+	/*float: inherit;*/
 }
 .section1__content__left__top__text2 {
 	font: Roboto-Bold;
@@ -138,7 +145,8 @@ body {
 	text-decoration: none;
 	color: #FFF;
 	/*display: block;*/
-	height: 36px;
+	height: 48px;
+	width: 329px;
 	display: flex;
 	align-items: center;
 	/*padding: 0 5px;*/
@@ -150,17 +158,132 @@ body {
 }
 
 .section1__button {
-	display: block;
+	display: flex;
+	background-color: green;
 	padding: 0 19px !important;
   	border-radius: 4px;
-  	border: solid 1px #ffffff;
+  	/*border: solid 1px #ffffff;*/
   	height: 36px;
+ 
 } 
 .section1__button:hover {
 	background-color: gray;
 	color: white !important;
   	border-radius: 4px;
-  	border: solid 1px #ffffff;
+  	/*border: solid 1px #ffffff;*/
   	height: 36px;
   	transition: 0.3s;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!*/
+.d-flex {
+	display: flex;
+}
+.home__for-who {
+	background: #000;
+	padding: 80px 0;
+}
+.home__for-who .title {
+	color: #FFF;
+	  font-family: Roboto;
+	  font-size: 80px;
+	  font-weight: 900;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: 0.98;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #ffffff;
+	  min-width: 33.3333%;
+	  width: 33.3333%;
+	  text-transform: uppercase;
+}
+.home__for-who .title span {
+	color: transparent;
+	 -webkit-text-stroke: 2px #ffffff;
+}
+.home__for-who .items {
+	width: 66.666665%;
+	min-width: 66.666665%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.home__for-who .items .item{
+	color: #fff;
+	width: 50%;
+	min-width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.home__for-who .items .item .item__title {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.home__for-who .items .item .item__thumb {
+	height: 194px;
+	background: #f00;
+	position: relative;
+}
+.home__for-who .items .item .item__thumb::before {
+	content: '';
+	width: 52px;
+	height: 52px;
+	background: #fff;
+	display: block;
+	position: absolute;
+	top: -7px;
+	left: -7px;
+	z-index: 1;
+}
+.home__for-who .items .item .item__thumb::after {
+	content: '';
+	width: 121px;
+	height: 121px;
+	background-color: #6dcc0e;
+	display: block;
+	position: absolute;
+	bottom: -11px;
+	right: -11px;
+	z-index: 1;
+}
+.home__for-who .items .item .item__thumb .image-holder {
+	position: absolute;
+	background-color: #ccc;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home__for-who .items .item .item__description {
+	font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+/*адаптивна верстака*/
+@media(max-width: 1024px) {
+	/*тут записуємо стилі для заданої 
+	максимальної ширини в парметрі функції- щоб 
+	нормально відображалося*/
+
 }
