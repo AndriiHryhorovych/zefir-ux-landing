@@ -7,6 +7,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	// Add the new slick-theme.css if you want the default styling
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
 	<div class="header">
@@ -103,6 +106,63 @@
 			</div>
 		</div>
 	</section>
+	<section class="home__where">
+		<div class="container">
+			<div class="d-flex">
+				<div class="home__where__title">
+					лекції проходитимуть у
+					<p>сучасній обладнаній</p>
+					<p>лабораторії</p>
+
+					<div class="home__where__items">
+						<div class="home__where__items__item">
+							1
+						</div>
+						<div class="home__where__items__item">
+							2
+						</div>
+						<div class="home__where__items__item">
+							3
+						</div>
+						<div class="home__where__items__item">
+							4
+						</div>
+					</div>
+				</div>
+
+				<div class="right">
+					<div class="slider-scene">
+						<div class="photos-slider">
+  							<div>
+  								<img src="img/slider1.jpg">
+  							</div>
+  							<div>
+  								<img src="img/slider1.jpg">
+  							</div>
+  							<div>
+  								<img src="img/slider1.jpg">
+  							</div>
+						</div>
+					</div>
+
+						<div class="slider-controls">
+							<button id="slider_prev">
+								<img src="img\prev.jpg">
+							</button>
+							<span id="current_slide">1</span>
+							із
+							<span id="total_slides">6</span>
+							<button id="slider_next">
+								<img src="img\next.jpg">
+							</button>
+						</div>
+
+					<!-- </div> -->
+				</div>
+			</div>
+		</div>
+
+	</section>
 
 
 	<section class="home__for-who">
@@ -113,66 +173,66 @@
 					<span>курс</span>
 				</div>
 				<div class="items">
-					
-						<div class="item">
-							<div class="item__thumb">
-								<div class="image-holder" style="background-image: url('img/beginers.jpg');">
-								</div>
-							</div>
-							<div class="item__title">
-								початківцям
-							</div>
-							<div class="item__description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+					<div class="item">
+						<div class="item__thumb">
+							<div class="image-holder" style="background-image: url('img/beginers.jpg');">
 							</div>
 						</div>
-						<!-- /item -->
-						<div class="item">
-							<div class="item__thumb">
-								<div class="image-holder" style="background-image: url('img/for_children.jpg');">
-								</div>
-
-							</div>
-							<div class="item__title">
-								дітям та дорослим
-							</div>
-							<div class="item__description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</div>
+						<div class="item__title">
+							початківцям
 						</div>
-
-						<!-- /item -->
-					
-					
-						<div class="item">
-							<div class="item__thumb">
-								<div class="image-holder" style="background-image: url('img/start_it.jpg');">
-								</div>
-
-							</div>
-							<div class="item__title">
-								тим, хто бажає розпочати кар'єру в it
-							</div>
-							<div class="item__description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</div>
+						<div class="item__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 						</div>
-						<!-- /item -->
-						<div class="item">
-							<div class="item__thumb">
-								<div class="image-holder" style="background-image: url('img/for_masters.jpg');">
-								</div>
+					</div>
+					<!-- /item -->
+					<div class="item">
+						<div class="item__thumb">
+							<div class="image-holder" style="background-image: url('img/for_children.jpg');">
+							</div>
 
-							</div>
-							<div class="item__title">
-								тим, хто хоче вдосконалити свої знання
-							</div>
-							<div class="item__description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</div>
 						</div>
-						<!-- /item -->
-					
+						<div class="item__title">
+							дітям та дорослим
+						</div>
+						<div class="item__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+					</div>
+
+					<!-- /item -->
+
+
+					<div class="item">
+						<div class="item__thumb">
+							<div class="image-holder" style="background-image: url('img/start_it.jpg');">
+							</div>
+
+						</div>
+						<div class="item__title">
+							тим, хто бажає розпочати кар'єру в it
+						</div>
+						<div class="item__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+					</div>
+					<!-- /item -->
+					<div class="item">
+						<div class="item__thumb">
+							<div class="image-holder" style="background-image: url('img/for_masters.jpg');">
+							</div>
+
+						</div>
+						<div class="item__title">
+							тим, хто хоче вдосконалити свої знання
+						</div>
+						<div class="item__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+					</div>
+					<!-- /item -->
+
 
 				</div>
 			</div>
@@ -180,6 +240,11 @@
 	</section>
 	<!--/home__for-who-->
 
-	
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+				
 </body>
 </html>
