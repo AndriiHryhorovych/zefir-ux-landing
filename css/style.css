@@ -464,6 +464,99 @@ body {
   margin: 0 0 40px 0;
 }
 
+.home__green .container {
+	width: 1200px;
+	max-width: 100%;
+	margin: 72px auto;
+	background-color: #6dcc0e;
+	height: 226px;
+}
+
+.home__green .title {
+	min-width: 55%;
+	width: 55%;
+	padding: 40px 10px 40px 100px;
+	font-family: Roboto;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.home__green__title-p {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.home__green .item {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.home__green .item-button {
+	width: 329px;
+  height: 48px;
+  flex-grow: 0;
+  margin: 89px 0 16px 4px;
+  padding: 10px 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  transition: 0.3s;
+}
+.home__green .item-button:hover {
+		background-color: gray;
+		color: white !important;
+/*  	border-radius: 4px;
+  	border: solid 1px #ffffff;*/
+/*  	height: 36px;*/
+  	transition: 0.3s;
+  	cursor: pointer;
+}
+.home__green .item-description {
+	display: flex;
+	justify-content: center;
+}
+.home__green .item-description img{
+	height: 16px;
+	width: 16px;
+}
+.home__green .item-description span{
+	font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
 /*адаптивна верстака*/
 @media(max-width: 1024px) {
 	/*тут записуємо стилі для заданої 
