@@ -356,8 +356,9 @@ body {
 	background: #FFF;
 	border: none;
 }
-
-
+.slider-controls button:hover {
+	cursor: pointer;
+}
 
 .home__for-who {
 	background: #000;
@@ -556,6 +557,76 @@ body {
   text-align: left;
   color: #ffffff;
 }
+.home__feedback .title {
+	font-family: Roboto;
+  font-size: 80px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.98;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+	text-transform: uppercase;
+}
+.home__feedback .title p{
+	-webkit-text-stroke: 2px #000000;
+  font-family: Roboto;
+  font-size: 76px;
+  line-height: 1.03;
+  margin: 0;
+  color: transparent;
+}
+.feedback-slider__scene {
+	position: relative;
+	height: 403px;
+}
+.feedback-slider__scene::before {
+	content: '';
+	width: 148px;
+	height: 148px;
+	background: #6dcc0c;
+	display: block;
+	position: absolute;
+	top: -17px;
+	right: -17px;
+	z-index: 1;
+}
+.feedback-slider__scene::after {
+	content: '';
+	width: 250px;
+	height: 250px;
+	background: #6dcc0c;
+	display: block;
+	position: absolute;
+	bottom: -55px;
+	left: -55px;
+	z-index: 1;
+}
+.feedback-sider__photos {
+/*	background: blue;
+	width: 783px;
+	height: 398px;*/
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	position: relative;
+}
+.feedback-slider-controls {
+	text-align: right;
+	margin-top: 40px;
+}
+.feedback-slider-controls img{
+	width: 50%;
+}
+
+.feedback-slider-controls button{
+	background: #FFF;
+	border: none;
+}
+.feedback-slider-controls button:hover {
+  	cursor: pointer;
+ }
 
 /*адаптивна верстака*/
 @media(max-width: 1024px) {
