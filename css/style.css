@@ -185,107 +185,13 @@ body {
   	transition: 0.3s;
   	cursor: pointer;
 }
-/*.home__start .foto {
-	background-color: #000000;
-}*/
-
-
-.section1 {
-	/*height: 66px;*/
-	/*padding: 26px 0px;*/
-	min-height: calc(100vh - 66px);
-	margin: 66px 0 0 0;
-	border-style: none;
-	background: #000;
-	display: flex;
-	align-items: center;
-}
-.section1__content {
-	display: flex;
-	align-items: center;
-}
-.section1 .container {
-	/*display: flex;*/
-	/*justify-content: space-between;*/
-	align-items: center;
-}
-.section1__content__left {
-	/*display: flex;
-	flex-direction: column;
-	align-items: center;*/
-	/*float: left;*/
-	/*margin: auto;*/
+.home__start .foto{
 	width: 50%;
-	/*min-height: calc(100vh - 66px);*/
-	background-color: red!important;
-	
-}
-.section1__content__right {
 	display: flex;
-	width: 50%;
-	/*min-height: calc(100vh - 66px);*/
-	background-color: green;
-	/*align-items: center;*/
-}
-.section1__content__left__top {
-	/*display: block;*/
-	
-	/*align-items: flex-end;*/
-}
-.section1__content__left__up {
-	display: flex;
-	/*justify-content: flex-start;*/
-	align-items: center;
-}
-.section1__content__left__top__text1 {
-	font: Roboto-Light;
-	font-size: 36px;
-	color: white;
-	/*float: inherit;*/
-}
-.section1__content__left__top__text2 {
-	font: Roboto-Bold;
-	font-size: 64px;
-	color: white;
-}
-.section1__content__left__top__text3 {
-	font: Roboto-Light;
-	font-size: 24px;
-	color: white;
-}
-.section1__content__left__up a {
-	text-decoration: none;
-	color: #FFF;
-	/*display: block;*/
-	height: 48px;
-	width: 329px;
-	display: flex;
-	align-items: center;
-	/*padding: 0 5px;*/
-	transition: 0.3s;
-}
-.section1__content__left__up a:hover {
-	color: gray;
-	transition: 0.3s;
+	justify-content: center;
 }
 
-.section1__button {
-	display: flex;
-	background-color: green;
-	padding: 0 19px !important;
-  	border-radius: 4px;
-  	/*border: solid 1px #ffffff;*/
-  	height: 36px;
- 
-} 
-.section1__button:hover {
-	background-color: gray;
-	color: white !important;
-  	border-radius: 4px;
-  	/*border: solid 1px #ffffff;*/
-  	height: 36px;
-  	transition: 0.3s;
-}
+
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!*/
 .d-flex {
