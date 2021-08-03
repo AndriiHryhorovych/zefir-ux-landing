@@ -79,6 +79,117 @@ body {
   	height: 36px;
   	transition: 0.3s;
 }
+.home__start {
+	background: #000;
+	padding: 80px 0;
+}
+.home__start .d-flex{
+	display: flex;
+	align-items: center;
+}
+.home__start .title {
+	  color: #FFF;
+	  font-family: Roboto;
+/*	  font-size: 80px;
+	  font-weight: 900;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: 0.98;
+	  letter-spacing: normal;*/
+	  text-align: left;
+	  color: #ffffff;
+	  min-width: 50%;
+	  width: 50%;
+	  /*text-transform: uppercase;*/
+}
+.home__start .title .text1{
+	font-family: Roboto;
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.home__start .title .text2{
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.home__start .title .text3{
+  font-size: 24px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.home__start .button {
+ 	width: 329px;
+  height: 48px;
+  flex-grow: 0;
+  margin: 40px 44px 40px 1px;
+  padding: 10px 0;
+  border-radius: 4px;
+  background-color: #6dcc0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 	font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.3s;
+  border-style: none;
+}
+
+.home__start .title .p1 {
+	margin: 40px 5px 40px 1px;
+  padding: 10px 0;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.home__start .title .p2 {
+	margin: 40px 44px 40px 1px;
+  padding: 10px 0;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.home__start .button:hover {
+		background-color: gray;
+		color: white !important;
+  	transition: 0.3s;
+  	cursor: pointer;
+}
+/*.home__start .foto {
+	background-color: #000000;
+}*/
+
+
 .section1 {
 	/*height: 66px;*/
 	/*padding: 26px 0px;*/
